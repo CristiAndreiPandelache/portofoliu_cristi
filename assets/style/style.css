@@ -1,0 +1,252 @@
+/* Stilizare generală */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav{
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image-section img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#proiecte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proiect {
+    width: 48%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.proiect img {
+    display: block;
+    margin: 0 auto;
+}
+
+.proiect h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.proiect p {
+    margin: 0;
+}
+
+.proiect a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.proiect a:hover {
+    background-color: #222;
+}
+
+#skill-uri {
+    margin-top: 50px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    margin-top: 0;
+}
+
+.progress-bar {
+    background-color: #f5f5f5;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #5e65ea;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#contact {
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    flex-basis: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #222;
+}
+
+.section_contact{
+
+    position: relative;
+    top: -50px;
+
+}
+.skills{
+    top: -20px;
+    position: absolute;
+    left: 659px;
+}
+
+.contact_section{
+    top: -40px;
+    position: absolute;
+    left: 659px;
+}
+.position_skill{
+    position: relative;
+    top: -35px;
+}
+
+.progress_text_html {
+    right: 290px;
+    color: white;
+    top: -35px;
+    position: relative;
+    text-align: right;
+}
+.progress_text_css{
+    right: 576px;
+    color:white;
+    top:-35px;
+    position: relative;
+    text-align: right;
+
+}
+
+.progress_text_javascript{
+    right: 626px;
+    color:white;
+    top:-35px;
+    position: relative;
+    text-align: right;
+
+}
+.progress_text_php{
+    right: 986px;
+    color:white;
+    top:-35px;
+    position: relative;
+    text-align: right;
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.text-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+.eu:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
