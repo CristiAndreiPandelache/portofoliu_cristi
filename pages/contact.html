@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+  <style>
+    #contact form {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #contact textarea {
+      height: 150px;
+    }
+
+    #contact button[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: background-color 0.2s ease;
+      cursor: pointer;
+    }
+
+    #contact button[type="submit"]:hover {
+      background-color: #222;
+    }
+
+    .trimite {
+      background-color: #fff;
+      color: #333;
+      border: 2px solid #333;
+    }
+
+    .trimite:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .trimite.sent {
+      background-color: #4CAF50;
+      color: #fff;
+      border: 2px solid #4CAF50;
+    }
+
+  </style>
+  <script src="../assets/javascript/js.js"></script>
+
+</head>
+<body>
+
+<div id="contact">
+  <form>
+    <input type="text" name="nume" placeholder="Nume">
+    <input type="email" name="email" placeholder="Adresă de email">
+    <textarea name="mesaj" placeholder="Mesaj"></textarea>
+    <button type="submit">Trimite</button>
+  </form>
+</div>
+
+
+</body>
+</html>
